@@ -1,0 +1,59 @@
+{
+    "event" : {
+        "id" : "number",
+        "name": "string",
+        "date": "date"
+    },
+    "judge" : {
+        "id" : "number",
+        "name": "string",
+        "isCertified" : true
+    },
+    "sheet" : {
+        "id" : "number",
+        "name": "string",
+        "categoryId" : "number",
+        "judges" : "[judgeId]",
+        "type" : "enum (qualifications, finals, summary)",
+        "defects": {
+            "type": "[enum defects]",
+            "value": "number"
+        },
+        "qualifications" : {
+            "reasons" : "text",
+            "overall" : "text",
+            "notes" : "text"
+        },
+        "points" : "number (1.00)",
+        "finals" : {
+            "aroma" : {
+                "score" : "number (1.00)",
+                "details": "text"
+            },
+            "appearance" : {
+                "score" : "number (1.00)",
+                "details": "text"
+            },
+            "taste" : {
+                "score" : "number (1.00)",
+                "details": "text"
+            },
+            "bitternes": {
+                "score" : "number (1.00)",
+                "details": "text"
+            },
+            "overall": {
+                "score" : "number (1.00)",
+                "details": "text"
+            }
+        }
+    },
+    "category" : {
+        "id" : "number",
+        "name" : "string"
+    },
+    "defect" : {
+        "name": "string",
+        "description": "string"
+    }
+}

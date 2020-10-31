@@ -1,21 +1,31 @@
 {
-    "events" : {
-        "id" : 1,
-        "name": "Pomorski KPD"
-    },
-    "judges" : {
+    "events" : [
+        {
+            "id" : 1,
+            "name": "Pomorski KPD"
+        }
+    ],
+    "judges" : [{
         "id": 1,
         "name" : "Sędzia Kalosz",
         "isCertified" : true
-    },
-    "sheets" : {
-        "id": 1,
-        "code" : "A872",
-        "categoryId" : 1,
-        "type" : "qualifications"
-    },
-    "categories" : {
+    }],
+    "sheets" : [
+        {
+            "id": 1,
+            "code" : "A872",
+            "categoryId" : 1,
+            "type" : "qualifications"
+        },
+        {
+            "id": 2,
+            "code" : "B666",
+            "categoryId" : 2,
+            "type" : "qualifications"
+        }
+    ],
+    "categories" : [{
         "id": 1,
         "name" : "Porter bałtycki"
-    }
+    }]
 }
