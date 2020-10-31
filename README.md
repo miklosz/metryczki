@@ -1,2 +1,2 @@
-# metryczki
-Metryczki na Konkurs Piw Domowych
+# Metryczki
+Metryczki na Konkursy Piw Domowych PSPD
